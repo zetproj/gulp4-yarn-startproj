@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	&:before, &:after {
+		box-sizing: border-box;
+	}
+}
+
+html, body {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+
+body {
+	position: relative;
+	min-width: 320px;
+	font-family: 'Roboto', 'Times New Roman';
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.65;
+	overflow-x: hidden;
+	opacity: 1;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	&:hover, &:focus {
+		outline: none;
+	}
+}
+
+button {
+	&:focus, &:active {
+		outline: none;
+	}
+}
+
+input {
+	&:focus, &:active {
+		outline: none;
+	}
+}
+
+textarea {
+	&:focus, &:active {
+		outline: none;
+	}
+}
